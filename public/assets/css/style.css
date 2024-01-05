@@ -1,0 +1,1333 @@
+
+.newnavbar .navbar{
+    padding:10px ;
+    height: 80px;
+    background-color: black;
+    
+    
+    
+    
+        
+    }
+
+         body{
+        overflow-x: hidden;
+    }
+    
+    *{
+    
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+     .newnavbar .nav-item a {
+         color: rgb(255, 166, 0);
+      
+         padding: 5px 5px;
+    
+         border-radius: 3px;
+         margin: 5px 5px;
+     }
+     .newnavbar .nav-item a:hover{
+    
+    
+      
+        background-color:rgb(255, 166, 0) ;
+        box-shadow: 0 0 20px orange;
+        color:rgba(255, 255, 255, 0.959);
+    
+        transform: scale(0.9);
+        transition: all 1s ease;
+    
+     }
+    
+    .a {
+        color: rgb(255, 174, 0);
+     text-decoration: none;
+        padding: 5px 5px;
+    
+        border-radius: 3px;
+        margin: 5px 12px;
+    }
+    .a:hover{
+    
+    
+     
+       background-color:rgb(255, 166, 0) ;
+       box-shadow: 0 0 20px orange;
+       color:rgba(255, 255, 255, 0.959);
+    
+       transform: scale(0.9);
+       transition: all 1s ease;
+    
+    }
+    
+    
+     .modalbutton{
+    color: rgb(255, 255, 255);
+    background-color:rgba(255, 166, 0, 0) 
+    ;
+    border: 1px solid orange;
+    
+    
+    border-radius: 50%;
+    padding: 5px 9px;
+     }
+    
+    
+     .modalbutton:hover{
+         color:white;
+         background-color: orange;
+         box-shadow: 0 0 20px orange;
+       transition: all 1s ease;
+    
+        }
+    
+        .dropdownicon{
+            color:rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: lighter;
+        }
+    .navbar1{
+        background-color: rgba(255, 255, 255, 0.856);
+        padding:0.2px;
+        height: 60px;
+    }
+    .navbar1 .nav-link{
+        color: rgb(0, 0, 0);
+    }
+    
+    .carousel-inner{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    
+        margin-top: 5px;
+        transition: all 2s ease;
+        margin-right: 5px;
+        margin-left: 5px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+        border-radius: 6px;
+        height: 350px;
+    }
+    .carousel-inner img{
+        height: 350px;
+        width: 100%;
+        opacity: 60%;
+         
+    }
+    .caption1{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 52%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 520%;
+        white-space: nowrap;
+        
+    }
+    .caption12{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 10%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 530%;
+        white-space: nowrap;
+        
+    }
+    
+    
+    .caption7{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 45%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 520%;
+        white-space: nowrap;
+        
+    }
+    .titles3 {
+        background-color: black;
+        width: 300px;
+        margin: 10px;
+        height: 373px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+    overflow: hidden;
+    border-radius: 5px;
+    }
+    
+    .titles {
+        background-color: black;
+        width:100%;
+        margin: 5px;
+        height: 173px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+    overflow: hidden;
+    border-radius: 5px;
+    }
+    .titles2 {
+        background-color: black;
+        width:300px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+        border-radius: 5px;
+        height: 173px;
+        overflow: hidden;
+        margin: 5px;
+    
+    }
+    #text{
+        color:rgba(255, 255, 255, 0.575);
+        transform: scale(1);
+        transition: all 1s ease;
+    
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        white-space: nowrap;
+    }
+    #text3{
+        color:rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+    font-size: 35px;
+        position: absolute;
+        left: 6.5%;
+        top: 30%;
+        white-space: nowrap;
+    }
+    #text2{
+        color:rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+    
+        position: absolute;
+        left:34%;
+        top: 70%;
+        text-decoration: none;
+        background-color: rgba(255, 166, 0, 0.664);
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 30px rgb(255, 174, 0);
+        white-space: nowrap;
+    }
+    #text4{
+        color:rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+    
+        position: absolute;
+        left:34%;
+        top: 70%;
+        text-decoration: none;
+        background-color: rgba(255, 38, 0, 0.664);
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 30px rgb(255, 72, 0);
+        white-space: nowrap;
+    }
+    #text5{
+        color:rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+    
+        position: absolute;
+        left:34%;
+        top: 70%;
+        text-decoration: none;
+        background-color: rgba(24, 110, 7, 0.664);
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 30px rgb(4, 133, 36);
+        white-space: nowrap;
+    }
+    #text6{
+        color:rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+    
+        position: absolute;
+        left:34%;
+        top: 70%;
+        text-decoration: none;
+        background-color: rgba(223, 20, 189, 0.664);
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 30px rgb(204, 28, 189);
+        white-space: nowrap;
+    }
+    .titles:hover #text2{
+        background-color:   rgb(255, 166, 0); 
+            box-shadow: 0 0 30px rgb(255, 174, 0);
+            transform: scale(0.8);
+            transition: all 1s ease;
+    }
+    .titles2:hover #text5{
+        background-color: rgb(49, 214, 16);
+        box-shadow: 0 0 30px rgb(4, 133, 36);
+            transform: scale(0.8);
+            transition: all 1s ease;
+    }
+    .titles2:hover #text6{
+        background-color: rgb(224, 81, 160);
+        box-shadow: 0 0 30px rgb(133, 4, 127);
+            transform: scale(0.8);
+            transition: all 1s ease;
+    }
+    .titles:hover #text4{
+        background-color: rgb(255, 38, 0);
+            box-shadow: 0 0 30px rgb(255, 0, 0);
+            transform: scale(0.8);
+            transition: all 1s ease;
+    }
+     .titles:hover #text3{
+        transform: scale(0.8);
+        transition: all 1s ease;
+    }
+    .titles:hover #text{
+        transform: scale(0.8);
+        transition: all 1s ease;
+    }
+    .titles .back{
+      background: linear-gradient(rgba(0, 0, 0, 0.363),rgba(73, 6, 6, 0.5)),url(../images/3.jpeg);
+        height: 100%;
+        background-size: cover;
+        transform: scale(1);
+        transition: all 1s ease;
+    
+    }
+    .titles .back3{
+        background: linear-gradient(rgba(0, 0, 0, 0.363),rgba(73, 6, 6, 0.5)),url(../images/banner.jpeg);
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+          transform: scale(1);
+          transition: all 1s ease;
+      
+      }
+    .titles3 .back2{
+        background: linear-gradient(rgba(0, 0, 0, 0.363),rgba(73, 6, 6, 0.5)),url(../images/3.jpeg);
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+          transform: scale(1);
+          transition: all 1s ease;
+      
+      }
+    .titles:hover .back{
+        transform: scale(1.2);
+        transition: all 1s ease;
+    }
+    .titles:hover .back3{
+        transform: scale(1.2);
+        transition: all 1s ease;
+    }
+    .titles3:hover .back2{
+        transform: scale(1.2);
+        transition: all 1s ease;
+    }
+    
+    #text{
+        color:rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+    }
+    
+     .titles2:hover #text{
+        transform: scale(0.6);
+        transition: all 1s ease;
+    }
+    .titles2 .back{
+      background: linear-gradient(rgba(0,0,0,0),rgba(73, 6, 6, 0.5)),url(../images/ab.webp);
+        height: 100%;
+        background-size: cover;
+        transform: scale(1);
+        transition: all 1s ease;
+    }
+    .titles2:hover .back{
+        transform: scale(1.2);
+        transition: all 1s ease;
+    }
+    .titles2 .back3{
+        background: linear-gradient(rgba(0,0,0,0),rgba(73, 6, 6, 0.5)),url(../images/sh.jpeg);
+          height: 100%;
+          background-size: cover;
+          transform: scale(1);
+          transition: all 1s ease;
+      }
+      .titles2:hover .back3{
+          transform: scale(1.2);
+          transition: all 1s ease;
+      }
+    .caption2{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 99.7%;
+        color: rgba(255, 38, 0, 0.897);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 365%;
+        
+    }  .caption11{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 50%;
+        white-space: nowrap;
+        color: rgba(255, 38, 0, 0.897);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 365%;
+        
+    }
+    .caption6{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 69%;
+        color: rgba(252, 151, 0, 0.993);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 365%;
+        
+    }
+    .caption3{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 22%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 200%;
+        
+    }
+    .caption8{
+        position: absolute;
+        font-size: 60px;
+        font-size: bolder;
+        right: 31%;
+        white-space: nowrap;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 200%;
+        
+    }
+    .caption4{
+        padding: 10px  20px;
+        background-color: rgba(255, 0, 0, 0.89);
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        right:87%;
+        bottom: 60%;
+        white-space: nowrap;
+    
+        text-decoration: none;
+        box-shadow: 0 0 20px gray;
+    }
+    .caption4:hover{
+        color: white;
+        background-color: orangered;
+        box-shadow: 0 0 30px orangered;
+        transform: scale(1.1);
+        transition: all 0.6s ease;
+        text-decoration: none;
+    }
+    .caption10{
+        padding: 10px  20px;
+        background-color: rgba(255, 166, 0, 0.747);
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        right:87%;
+        bottom: 60%;
+        white-space: nowrap;
+    
+        text-decoration: none;
+        box-shadow: 0 0 20px rgb(255, 147, 5);
+    }
+    .caption10:hover{
+        color: white;
+        background-color: rgb(255, 153, 0);
+        box-shadow: 0 0 30px rgb(255, 145, 0);
+        transform: scale(1.1);
+        transition: all 0.6s ease;
+        text-decoration: none;
+    }
+    
+    .tags a{
+        background-color: rgba(0, 0, 0, 0);
+        color:orange;
+    font-weight: bold;
+        padding: 10px 50px;
+        text-decoration: none;
+        border: 2px solid rgba(128, 128, 128, 0.548);
+    
+        white-space: nowrap;
+        border-radius: 5px;
+    }
+    .tags a:hover{
+        background-color: orange;
+        color: white;
+        box-shadow: 0 0 30px orange;
+        border: 2px solid rgba(241, 159, 6, 0.548);
+        transform:scale(1.2);
+        transition: all 1s ease;
+    }
+    
+    .cards {
+        width: 100%;
+        margin-top:10px;
+    margin-left: 5px;
+        border-radius: 8px;
+        height:390px;
+        padding: 10px 10px;
+    
+    }
+    .cards img{
+    background-color: rgba(247, 145, 12, 0.877);
+        height: 200px;
+        border-radius: 5px;
+        width: 180px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    
+    .cards h5 {
+        font-size:20px;
+        margin-top: 5px;
+    
+    
+    }
+    .cards p{
+        color: rgb(241, 135, 13);
+    
+    }
+    .cards h6{
+        color: gray;
+    }
+    .cards a{
+        padding: 8px 30px;
+        background-color: rgb(252, 143, 1);
+        box-shadow: 0 0 20px gray;
+        text-decoration: none;
+        border: transparent;
+        border-radius: 5px;
+        margin-top:10px;
+        white-space: nowrap;
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .cards a:hover{
+        color: orange;
+        text-decoration: none;
+        box-shadow: 0 0 20px orange;
+        transition: all 1s ease;
+        background-color: black;
+    }
+
+    #qunatityAddToCart{
+        width: 50px;
+    }
+    /* timer */
+    
+    .cards2 {
+        width: 240px;
+        margin: 10px;
+      
+        border-radius: 8px;
+        height:370px;
+        padding: 10px 10px;
+    
+    }
+    .cards2 img{
+        height: 240px;
+        background-color: rgba(247, 145, 12, 0.877);
+        padding: 10px;
+        border-radius: 3px;
+        width: 100%;
+    }
+    
+    
+    
+    /* slide */
+    
+    .sliders{
+     background: linear-gradient(rgba(224, 221, 10, 0.397),rgba(24, 1, 1, 0.322)),url(../images/banner3.jpg);
+        padding: 10px;
+    background-size: cover;
+        height: 400px;
+    }
+    .cards4 {
+        width: 210px;
+        margin: 10px;
+      
+        border-radius: 8px;
+        height:370px;
+        padding: 10px 10px;
+    
+    }
+    .cards4 img{
+        height: 180px;
+        background-color: rgb(247, 145, 12);
+        padding: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.329);
+        border-radius: 3px;
+        width: 100%;
+        margin-left: 5px;
+    }
+    .cards4 h5 {
+        font-size:20px;
+        margin-top: 5px;
+        color: white;
+    
+    
+    }
+    .cards4 p{
+        color: rgb(241, 135, 13);
+    
+    }
+    .cards4 h6{
+        color: gray;
+    }
+    .cards4 a{
+        padding: 8px 20px;
+        background-color: rgb(252, 114, 1);
+        box-shadow: 0 0 20px rgb(221, 81, 17);
+        text-decoration: none;
+        border: transparent;
+        border-radius: 5px;
+        margin-top:10px;
+        margin-left: 10px;
+        color: white;
+        white-space: nowrap;
+    }
+    
+    .cards4 a:hover{
+        color: orange;
+        text-decoration: none;
+        box-shadow: 0 0 20px orange;
+        transition: all 1s ease;
+        background-color: black;
+    }
+    
+    /* sfsdf */
+    
+    .cards2 h5 {
+        font-size:20px;
+        margin-top: 5px;
+    
+    
+    }
+    .cards2 p{
+        color: rgb(241, 135, 13);
+    
+    }
+    .cards2 h6{
+        color: gray;
+    }
+    .cards2 a{
+        padding: 8px 40px;
+        background-color: rgb(252, 152, 1);
+        box-shadow: 0 0 20px gray;
+        text-decoration: none;
+        border: transparent;
+        border-radius: 5px;
+        margin-top:10px;
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .cards2 a:hover{
+        color: orange;
+        text-decoration: none;
+        box-shadow: 0 0 20px orange;
+        transition: all 1s ease;
+        background-color: black;
+    }
+    
+    /* .timedate{
+        height: 600px;
+    }
+    
+    
+  
+    
+    /* timer */
+    
+    .timer{
+        display: inline-flex;
+        padding: 10px;
+    
+        position: absolute;
+       left: 65%;
+    margin-top:200px;
+        overflow: hidden;
+    }
+    .timer #DAY{
+        background-color: rgb(255, 145, 0);
+        padding: 10px 40px;
+        margin: 5px;
+        box-shadow: 0 0 30px rgba(255, 145, 0, 0.747) ;
+    }
+    .timer #HOUR{
+        background-color: rgb(255, 145, 0);
+        padding: 10px 40px;
+        margin: 5px;
+        box-shadow: 0 0 30px rgba(255, 145, 0, 0.384) ;
+    }
+    .timer #MINUTES{
+        background-color: rgb(255, 145, 0);
+        box-shadow: 0 0 30px rgba(255, 145, 0, 0.349) ;
+        padding: 10px 40px;
+        margin: 5px;
+    }
+    .timer #SECONDS{
+        background-color: rgb(255, 145, 0);
+        box-shadow: 0 0 30px rgba(255, 145, 0, 0.37) ;
+        padding: 10px 40px;
+        margin: 5px;
+    }
+    .upcoming{
+    background: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.253)),url(../images/deal.png);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .upcoming h1{
+        font-size:60px;
+        color: white;
+        font-weight: bolder;
+        text-shadow: 2px 2px gray;
+        position: absolute;
+        margin-top:50px;
+       left:53%;
+        white-space: nowrap;
+        font-family: arial black;
+    }
+    .upcoming p{
+        font-size:10px;
+        color: white;
+        font-weight:lighter;
+    
+        position: absolute;
+        margin-top:140px;
+        left:62%;
+            font-family: arial;
+    }
+     
+    .pro h1{
+     
+        width: fit-content;
+        padding: 5px;
+    
+        font-size: 40px;
+        padding:5px;
+    
+       border-bottom: 4px solid orange;
+     
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .weekdeals{
+        background: linear-gradient(rgba(51, 31, 2, 0.836),rgba(0, 0, 0, 0.555)),url(../images/pro4.webp);
+        height: 280px;
+        margin: 20px;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .weekdeals h2{
+        position: absolute;
+        color: white;
+        margin-top: 60px;
+        left: 30%;
+        font-family: arial black;
+       
+        font-size: 50px;
+    }
+    .weekdeals p{
+        position: absolute;
+        color: white;
+        margin-top: 150px;
+        left: 40%;
+        font-family: arial black;
+      
+        font-size: 20px;
+    }
+    .weekdeals a{
+        position: absolute;
+        color: white;
+        margin-top: 210px;
+        left: 45%;
+        text-decoration: none;
+        box-shadow: 0 0 30px red;
+    
+      padding: 10px 40px;
+      background-color: red;
+        font-size: 15px;
+    }
+    footer {
+        background-color: black;
+        height:100%;
+        color: orange;
+        padding: 10px;
+        border-top: 40px solid orange;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .logos a{
+        display: inline-block
+        ;
+    background-color: orange;
+    padding: 10px 20px;
+    white-space: nowrap;
+    margin:5px;
+    
+    border-radius: 6px;
+    }
+    footer a:hover{
+        color: orange;
+    }
+    .logos a:hover{
+        color: black;
+        background-color: rgb(255, 115, 0);
+        box-shadow: 0 0 30px orange;
+        transition: 1s ease;
+    }
+    .search{
+     
+    background-color: orange;
+    padding: 10px 20px;
+    white-space: nowrap;
+    margin:5px;
+    
+    border-radius: 6px;
+    }
+    footer input{
+        padding: 4px 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.781);
+        box-shadow: 0 0 20px orange;
+        
+    }
+    .search:hover{
+        color: black;
+        background-color: rgb(255, 115, 0);
+        box-shadow: 0 0 30px orange;
+        transition: 1s ease;
+    }
+    .about{
+    
+    padding: 5px;
+    
+    justify-content: space-between;
+    
+    }
+    .about h3{
+        font-size: 20px;
+        white-space: nowrap;
+        color: orange;
+    
+    }
+    
+    .about p{
+        font-size: 15px;
+        color: gray;
+    }
+    .about img{
+        margin-top:20px ;
+      overflow: visible;
+    }
+    .abouts img{
+        margin-top: 23px;
+    }
+  .banner  {
+        background:linear-gradient(rgba(0, 0, 0,0), rgba(0, 0, 0, 0.692)),url(../images/bann.png);
+        height: 350px;
+        background-size: cover;
+    
+    }
+    .banner h1{
+        font-size: 50px;
+        position: absolute;
+        left: 30%;
+        margin-top: 50px;
+        color: white;
+        font-family: arial black;
+        text-shadow: 2px 2px gray;
+    }
+    .banner h3{
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        left: 37%;
+        margin-top: 120px;
+    }
+    
+    .banner a{
+        color: white;
+        background-color: orangered;
+        box-shadow: 0 0 30px orangered;
+        text-decoration: none;
+        padding: 10px 50px;
+        position: absolute;
+        left: 44%;
+        margin-top: 190px;
+    }
+
+    .banner a:hover{
+        color: white;
+        background-color: orange;
+        box-shadow: 0 0 30px orange;
+        transition: 1s ease;
+    }
+
+
+    .navbar-brand{
+        width:100px;height:150px;
+    }
+     @media  (max-width:990px) { 
+body{
+overflow-x: hidden;
+}
+        .banner a{
+            color: white;
+            background-color: orangered;
+            box-shadow: 0 0 30px orangered;
+            text-decoration: none;
+            padding: 10px 50px;
+            position: absolute;
+            left: 28%;
+            margin-top: 190px;
+        }
+        .banner h3{
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            left: 17%;
+            margin-top: 120px;
+        }
+        
+        .banner h1{
+            font-size:30px;
+            position: absolute;
+            left:2%;
+            white-space: nowrap;
+            margin-top: 50px;
+            color: white;
+            font-family: arial black;
+            text-shadow: 2px 2px gray;
+        }
+.cards img{
+    width: 100%;
+}
+      .upcoming p{
+            font-size:10px;
+            color: white;
+            font-weight:lighter;
+        
+            position: absolute;
+            margin-top:80px;
+            left:10%;
+                font-family: arial;
+        }
+        .upcoming h1{
+            font-size:40px;
+            color: white;
+            font-weight: bolder;
+            text-shadow: 2px 2px gray;
+            position: absolute;
+            margin-top:25px;
+           left:3%;
+            white-space: nowrap;
+            font-family: arial black;
+        }
+        .upcoming{
+            background: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.253)),url(../images/deal.png);
+                height:335px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            
+                width: 100%;
+                overflow: hidden;
+                
+            }
+
+        .timer #DAY{
+            background-color: rgb(255, 145, 0);
+            padding: 5px 20px;
+            margin: 5px;
+            box-shadow: 0 0 30px rgba(255, 145, 0, 0.747) ;
+        }
+        .timer #HOUR{
+            background-color: rgb(255, 145, 0);
+            padding: 5px 20px;
+            margin: 5px;
+            box-shadow: 0 0 30px rgba(255, 145, 0, 0.384) ;
+        }
+        .timer #MINUTES{
+            background-color: rgb(255, 145, 0);
+            box-shadow: 0 0 30px rgba(255, 145, 0, 0.349) ;
+            padding: 5px 20px;
+            margin: 5px;
+        }
+        .timer #SECONDS{
+            background-color: rgb(255, 145, 0);
+            box-shadow: 0 0 30px rgba(255, 145, 0, 0.37) ;
+            padding: 5px 20px;
+            margin: 5px;
+        }
+        .timer{
+            display: inline-flex;
+            padding: 10px;
+        
+            position: absolute;
+           left: 20%;
+        margin-top:200px;
+            overflow: hidden;
+        }
+        .titles3 {
+            background-color: black;
+            width:360px;
+            margin: 10px;
+            height: 150px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+        overflow: hidden;
+        border-radius: 5px;
+        }
+        
+        .titles3 #text2{
+            position: absolute;
+            left: 30%;
+            }
+            
+
+
+.titles3 #text{
+position: absolute;
+left: 30%;
+}
+
+        .tags a{
+            background-color: rgba(0, 0, 0, 0);
+            color:orange;
+        font-weight: bold;
+            padding: 10px 30px;
+       
+            text-decoration: none;
+            border: 2px solid rgba(128, 128, 128, 0.548);
+width:100%;
+
+            white-space: nowrap;
+            border-radius: 5px;
+        }
+        
+    .titles2 {
+        background-color: black;
+        width:100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+        border-radius: 5px;
+        height: 173px;
+        overflow: hidden;
+        margin: 5px;
+    
+    }
+       
+        #text3{
+            color:rgb(255, 255, 255);
+            transform: scale(1);
+            transition: all 1s ease;
+        font-size:22px;
+            position: absolute;
+            left:2.5%;
+            top: 30%;
+            white-space: nowrap;
+        }
+        #text4{
+            color:rgb(255, 255, 255);
+            transform: scale(1);
+            transition: all 1s ease;
+        
+            position: absolute;
+            left:24%;
+            top:60%;
+   
+            text-decoration: none;
+            background-color: rgba(255, 38, 0, 0.664);
+            padding: 5px 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 30px rgb(255, 72, 0);
+            white-space: nowrap;
+        }
+        #text2{
+            color:rgb(255, 255, 255);
+            transform: scale(1);
+            transition: all 1s ease;
+        
+            position: absolute;
+            left:24%;
+            top:60%;
+            text-decoration: none;
+            background-color: rgba(255, 166, 0, 0.664);
+            padding: 5px 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 30px rgb(255, 174, 0);
+            white-space: nowrap;
+        }
+
+
+
+
+
+
+
+
+
+        #text1{
+            color:rgb(255, 255, 255);
+            transform: scale(1);
+            transition: all 1s ease;
+        
+            position: absolute;
+            left:7%;
+            top: 30%;
+            font-size: 25px;
+            white-space: nowrap;
+        }
+
+
+
+        #text{
+            color:rgb(255, 255, 255);
+            transform: scale(1);
+            transition: all 1s ease;
+        
+            position: absolute;
+            left:7%;
+            top: 30%;
+            font-size: 25px;
+            white-space: nowrap;
+        }
+        
+        .carousel-inner img{
+            height: 350px;
+            width: 100%;
+            opacity: 60%;
+             
+        }
+
+
+
+        .caption10{
+            padding: 5px 10px;
+            background-color: rgba(255, 166, 0, 0.747);
+            color: white;
+            border-radius: 4px;
+            position: absolute;
+            right:70%;
+            bottom: 60%;
+            white-space: nowrap;
+        
+            text-decoration: none;
+            box-shadow: 0 0 20px rgb(255, 147, 5);
+        }
+
+        .caption8{
+            position: absolute;
+            font-size:45px;
+            font-size: bolder;
+            right:7%;
+            white-space: nowrap;
+            color: rgba(255, 255, 255, 0.815);
+            text-shadow: 3px 3px #424040b7;
+            font-family:Arial Black;
+            bottom: 200%;
+            
+        }
+
+
+
+
+
+
+
+
+        .caption6{
+            position: absolute;
+            font-size: 40px;
+            font-size: bolder;
+            right: 59%;
+            color: rgba(252, 151, 0, 0.993);
+            text-shadow: 3px 3px #424040b7;
+            font-family:Arial Black;
+            bottom: 365%;
+            
+        }
+        .caption7{
+            position: absolute;
+            font-size: 40px;
+            font-size: bolder;
+            right: 29%;
+            color: rgba(255, 255, 255, 0.815);
+            text-shadow: 3px 3px #424040b7;
+            font-family:Arial Black;
+            bottom: 520%;
+            white-space: nowrap;
+            
+        }
+        .caption4{
+            padding:5px  10px;
+            background-color: rgba(255, 0, 0, 0.89);
+            color: white;
+            border-radius: 4px;
+            position: absolute;
+            right:70%;
+            bottom: 70%;
+            white-space: nowrap;
+        
+            text-decoration: none;
+            box-shadow: 0 0 20px gray;
+        }
+        .caption3{
+            position: absolute;
+            font-size: 40px;
+            font-size: bolder;
+            right: 5%;
+            color: rgba(255, 255, 255, 0.815);
+            text-shadow: 3px 3px #424040b7;
+            font-family:Arial Black;
+            bottom: 200%;
+            
+        }
+
+        .newnavbar .navbar{
+         
+            height:100%;
+            background-color: rgb(0, 0, 0);
+            
+           
+            
+            
+                
+            }
+            .caption2{
+                position: absolute;
+                font-size: 50px;
+                font-size: bolder;
+                right: 89.7%;
+                color: rgba(255, 38, 0, 0.897);
+                text-shadow: 3px 3px #424040b7;
+                font-family:Arial Black;
+                bottom: 365%;
+                
+            }
+            .carousel-inner{
+                background-color: rgb(0, 0, 0);
+                width:100%;
+
+
+                transition: all 2s ease;
+      
+            
+                box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+                border-radius: 6px;
+                height: 100%;
+           
+            }
+            
+    .caption1{
+        position: absolute;
+        font-size: 50px;
+        font-size: bolder;
+        right: 20%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family:Arial Black;
+        bottom: 550%;
+        white-space: nowrap;
+        
+    }
+            .navbar-brand img{
+                width: 50px;
+       height: 40px;
+
+            }
+      
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-body{
+    background-color: black;
+}
+.modal-content{
+    background-color: black;
+}
+.modal-body input{
+    margin-left: 75px;
+    width: 600px;
+    background-color: white;
+    border:1px solid orange;
+}
+body{
+    overflow-x: hidden;
+}
+  
+.reveal{
+    
+    position: relative;
+    transform: translatez(150px);
+    opacity: 0;
+    transition: all 2s ease;
+    
+    }
+    .reveal.active{
+        transform: translatez(0px);
+        opacity: 1; 
+    }
