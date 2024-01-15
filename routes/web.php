@@ -21,3 +21,10 @@ Route::get("/contactPage", [MainController::class, "contactPage"]);
 Route::get("/productPage", [MainController::class, "productPage"]);
 Route::get("/productPage2", [MainController::class, "productPage2"]);
 Route::get("/productPage3", [MainController::class, "productPage3"]);
+
+
+// SignUp And SignIn
+Route::get("/form", [MainController::class, "form"]);
+Route::get("/SignIn", [MainController::class, "SignIn"]);
+Route::post("/signUpForm", [MainController::class, "registerUser"]);
+Route::post("/SignInForm", [MainController::class, "LoginUser"]);
